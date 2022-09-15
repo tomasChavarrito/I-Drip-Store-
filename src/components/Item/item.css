@@ -1,0 +1,13 @@
+.file {
+    width: 500px;
+    text-align: justify;
+    display: flexbox;
+}
+
+.file img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    text-align: justify;
+    display: flex;
+}
