@@ -1,9 +1,17 @@
-import React from 'react'
+import React, {useState} from 'react'
 import ItemCount from '../ItemCount'
+import { Link } from 'react-router-dom'
 import {PhoneM2} from '../props/props';
 
 
+
  const ItemDetail = ({data}) => {
+  const [goToCart, setGoToCart]= useState(false);
+
+  const onAdd = (quantity) => {
+    setGoToCart(true);
+  }
+
   return (
         <>
         <PhoneM2
@@ -13,7 +21,11 @@ import {PhoneM2} from '../props/props';
          precio={data.price}
          image={data.image}
          />
-        <ItemCount initial={1} stock={10}/>
+        {
+          goToCart
+            ? <Link to='/cart'>Terminar Compra</Link>
+            : <ItemCount initial={1} stock={10} onAdd={onAdd}/>
+        }
        </>
   )
 }

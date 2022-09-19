@@ -20,6 +20,7 @@ const App = () => {
         <Routes>
           <Route path='/inicio' element={<ItemListCointainer />} />
           <Route path='/categoria/:categoriaId' element={<ItemListCointainer />} />
+          <Route path='/' element={<ItemListCointainer />} />
           <Route path='/cart' element={<ItemListCointainer />} />
           <Route path='/detalle/:detalleId' element={<ItemDetailContainer />} />
         </Routes>
