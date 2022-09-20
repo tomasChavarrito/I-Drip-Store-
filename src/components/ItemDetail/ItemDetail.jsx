@@ -1,15 +1,18 @@
 import React, {useState} from 'react'
+import { useCartContext } from '../../Context/CartContext'
 import ItemCount from '../ItemCount'
 import { Link } from 'react-router-dom'
 import {PhoneM2} from '../props/props';
 
 
 
- const ItemDetail = ({data}) => {
+ export const ItemDetail = ({data}) => {
   const [goToCart, setGoToCart]= useState(false);
+  const { addProduct } = useCartContext();
 
   const onAdd = (quantity) => {
     setGoToCart(true);
+    addProduct(data, quantity);
   }
 
   return (
