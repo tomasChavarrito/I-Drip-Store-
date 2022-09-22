@@ -4,7 +4,7 @@ import Navbar from './components/navegate/Navbar'
 import {ItemListCointainer} from './components/ItemListCointainer/index';
 import {ItemDetailContainer} from './components/ItemDetailContainer/ItemDetailContainer';
 import React from 'react';
-import CartProvider from './Context/CartContext.jsx'
+import {CartProvider} from './Context/CartContext'
 
 
 export const CartContext = React.createContext('');
@@ -20,7 +20,7 @@ const App = () => {
 
         <Router>
 
-        <CartContext.Provider value='IDS'>
+        <CartProvider value='IDS'>
 
         <Navbar/>
            <h1> ~I Drip Store~</h1>
@@ -33,7 +33,7 @@ const App = () => {
           <Route path='/detalle/:detalleId' element={<ItemDetailContainer />} />
         </Routes>
 
-        </CartContext.Provider>
+        </CartProvider>
 
         </Router>
 
