@@ -4,7 +4,7 @@ import Navbar from './components/navegate/Navbar'
 import {ItemListCointainer} from './components/ItemListCointainer/index';
 import {ItemDetailContainer} from './components/ItemDetailContainer/ItemDetailContainer';
 import React from 'react';
-import {CartProvider} from './Context/CartContext'
+import {CartProvider} from './Context/CartContext';
 
 
 export const CartContext = React.createContext('');

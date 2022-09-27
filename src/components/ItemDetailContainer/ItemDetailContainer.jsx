@@ -11,16 +11,16 @@ const PhoneFile = [
          title: "Iphone 13",
          marca:'Apple',
          dato:'Procesador A15 Bionic - Pantalla OLED Super Retina 6,1" - Bateria de 4000 mAh - Camaras de 12mp Gran Angular - Ram 12gb - SSD 1TB',
-         price:"u$d1600",
-         category:'apple'},
+         price:1600,
+         category:'apple'}, 
 
 
     {id: 2,
          image:"/IPH14.jpg",
-         title:"Iphone 14 ~Coming Soon~",
+         title:"Iphone 14 ~Nuevo~",
          marca:'Apple',
          dato:'Procesador A16 Bionic - Pantalla OLED Super Retina 6,5" - Bateria de 4700 mAh - Camaras de 18mp Gran Angular - Ram 12gb - SSD 1TB',
-         price:"~Coming Soon~",
+         price:2000,
          category:'apple'},
 
 
@@ -29,7 +29,7 @@ const PhoneFile = [
          title:"Samsung Galaxy S22 Ultra",
          marca:'Samsung',
          dato:'Procesador Octa.Core - Pantalla OLED Super Retina 6,8" - Bateria de 6000 mAh - Camaras de 108mp Gran Angular - Ram 12gb - SSD 1TB',
-         price:"1200$",
+         price:1200,
          category:'samsung'},
 
 
@@ -38,7 +38,7 @@ const PhoneFile = [
          title:"Samsung Galaxy Note 20",
          marca:'Samsung',
          dato:'Procesador Octa.Core - Pantalla OLED Super Retina 6,6" - Bateria de 52000 mAh - Camaras de 98mp Gran Angular - Ram 12gb - SSD 1TB',
-         price:"1100$",
+         price:1100,
          category:'samsung'},
 
 
@@ -47,7 +47,7 @@ const PhoneFile = [
          title:"Moto G 200",
          marca:'Motorola',
          dato:'Procesador Octa.Core2 - Pantalla OLED Super Retina 5,7" - Bateria de 3500 mAh - Camaras de 60mp Gran Angular - Ram 8gb - SSD 256gb',
-         price:"1000$",
+         price:1000,
          category:'motorola'},
 
 
@@ -56,7 +56,7 @@ const PhoneFile = [
          title:"Moto Edge 30",
          marca:'Motorola',
          dato:'Procesador Octa.Core2 - Pantalla OLED Super Retina 5,9" - Bateria de 4100 mAh - Camaras de 72mp Gran Angular - Ram 8gb - SSD 512gb',
-         price:"1150$",
+         price:1150,
          category:'motorola'},
 ];
 

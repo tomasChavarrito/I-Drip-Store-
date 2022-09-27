@@ -10,16 +10,16 @@ const PhoneFile = [
          title: "Iphone 13",
          marca:'Apple',
          dato:'Movie',
-         price:"u$d1600",
+         price:1600,
          category:'apple'},
 
 
     {id: 2,
          image:"/IPH14.jpg",
-         title:"Iphone 14 ~Coming Soon~",
+         title:"Iphone 14 ~Nuevo~",
          marca:'Apple',
          dato:'Music',
-         price:"~Coming Soon~", 
+         price:2000, 
          category:'apple'},
 
 
@@ -28,7 +28,7 @@ const PhoneFile = [
          title:"Samsung Galaxy S22 Ultra",
          marca:'Samsung', 
          dato:'Sports',
-         price:"1200$",  
+         price:1200,  
          category:'samsung'},
 
 
@@ -37,7 +37,7 @@ const PhoneFile = [
          title:"Samsung Galaxy Note 20",
          marca:'Samsung', 
          dato:'VideoGame',
-         price:"1100$",  
+         price:1100,  
          category:'samsung'},
 
 
@@ -46,7 +46,7 @@ const PhoneFile = [
          title:"Moto G 200",
          marca:'Motorola', 
          dato:'Sponsors',
-         price:"1000$",  
+         price:1000,  
          category:'motorola'},
 
 
@@ -55,7 +55,7 @@ const PhoneFile = [
          title:"Moto Edge 30",
          marca:'Motorola', 
          dato:'Sponsors',
-         price:"1150$", 
+         price:1150, 
          category:'motorola'},
 ];
 
