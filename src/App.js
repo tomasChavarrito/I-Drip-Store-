@@ -6,6 +6,7 @@ import {ItemDetailContainer} from './components/ItemDetailContainer/ItemDetailCo
 import React from 'react';
 import {CartProvider} from './Context/CartContext'
 import Cart from './components/Cart/cart';
+import { Cuestionario } from './components/Cuestionario/cuestionario';
 
 
 export const CartContext = React.createContext('');
@@ -32,6 +33,7 @@ const App = () => {
           <Route path='/' element={<ItemListCointainer />} />            {/*Lista de entrada de productos en la pagina, no borrar */}
           <Route path='/cart' element={<Cart />} />
           <Route path='/detalle/:detalleId' element={<ItemDetailContainer />} />
+          <Route path='/cuestionario' element={<Cuestionario />} />
         </Routes>
 
         </CartProvider>
