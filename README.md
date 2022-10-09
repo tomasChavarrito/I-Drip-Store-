@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Información importante del proyecto
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descripción del proyecto
 
-## Available Scripts
+Esste es mi proyecto final del curso de ReactJS para CoderHouse, consiste en un e-comerce hecho con React, junto con React Hooks y React Router como framework principal para los componentes y Finalmente usando Firebase como base de datos.
 
-In the project directory, you can run:
+## Librerias y Frameworks requeridos
 
-### `npm start`
+- "firebase": "^9.6.10",
+- "react": "^17.0.2",
+- "react-dom": "^17.0.2",
+- "react-router-dom": "^6.2.2",
+- "react-scripts": "5.0.0",
+- "web-vitals": "^2.1.4"
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Proceso de instalación
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Descargar e instalar Node.js
 
-### `npm test`
+   https://nodejs.org/en/download/
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Instalar Git y logear su cuenta
 
-### `npm run build`
+   https://git-scm.com
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Descargar la versión más reciente de npm. En la linea de comandos ejecutar:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   npm install -g npm
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Clonar el repositorio ejecutando del siguiente comando en la consola de Git Bash:
 
-### `npm run eject`
+   $ git clone https://github.com/FranGFrau/app-fgf
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+5. Instalar las respectivas dependecias del proyecto. En la consola ejecutar el siguiente comando:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+6. Iniciar el repositorio. en la linea de comando, ejecutar el siguiente comando:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   npm start
 
-## Learn More
+## Instrucciones de uso
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Buscar en la tienda el/los producto/s deseado/s y sumelo/s al carrito, los productos estan filtrados por categorías para mayor accesibilidad
+2. Vaya al carrito y visualice su/s producto/s seleccionado/s y presione el botón "Completar Formulario"
+3. Llene la información requerida en el formulario
+4. Finalice su compra presionando su respectivo botón
