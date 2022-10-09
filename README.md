@@ -29,7 +29,7 @@ Esste es mi proyecto final del curso de ReactJS para CoderHouse, consiste en un 
 
 4. Clonar el repositorio ejecutando del siguiente comando en la consola de Git Bash:
 
-   $ git clone https://github.com/FranGFrau/app-fgf
+   $ git clone https://github.com/tomasChavarrito/I-Drip-Store-
 
 5. Instalar las respectivas dependecias del proyecto. En la consola ejecutar el siguiente comando:
 
