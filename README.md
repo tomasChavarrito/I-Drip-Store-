@@ -2,7 +2,7 @@
 
 ## Descripción del proyecto
 
-Esste es mi proyecto final del curso de ReactJS para CoderHouse, consiste en un e-comerce hecho con React, junto con React Hooks y React Router como framework principal para los componentes y Finalmente usando Firebase como base de datos.
+Este es I Drip Store, un e-commerce dedicado a celulares, el cual es mi Proyecto Final para el curso de React Js de Coder House, usando React Router como framework principal para componentes y Firebase como base de datos.
 
 ## Librerias y Frameworks requeridos
 
