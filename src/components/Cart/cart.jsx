@@ -24,7 +24,7 @@ export const Cart = () => {
       }
       <p> Total: u$d{totalPrice()} </p>
 
-      <Link to='../Cuestionario'> Confirmar compra </Link>
+      <Link to='../Cuestionario'> Completar Formulario </Link>
     </div>
   )
 }
