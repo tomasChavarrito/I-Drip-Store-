@@ -1,6 +1,7 @@
 .App {
   text-align: center;
-  background-color: gainsboro;
+  background: url(../../fondoNG.png);
+  height: 200vh;
 }
 
 .App-logo {
@@ -15,7 +16,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -26,7 +27,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #fafafa;
 }
 
 @keyframes App-logo-spin {
@@ -40,5 +41,13 @@
 
 .nav {
   color:firebrick
+}
+
+.titulo {
+  color: #fafafa;
+}
+
+.titulo a{
+  size: 30px;
 }
 

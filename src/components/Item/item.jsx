@@ -11,13 +11,15 @@ const Item = ({dato}) => {
 
 
   return (
-    
-    <Link to={`/detalle/${dato.id}`}>
+    <div className="imgTitulo">
+      <Link to={`/detalle/${dato.id}`}>
         <PhoneM
          name={dato.title}
          image={dato.image}
          />
     </Link>
+    </div>
+    
          
   )
 }

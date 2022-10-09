@@ -3,6 +3,7 @@ import { useCartContext } from '../../Context/CartContext'
 import ItemCount from '../ItemCount'
 import { Link } from 'react-router-dom'
 import {PhoneM2} from '../props/props';
+import './itemDetail.css'
 
 
 
@@ -16,7 +17,7 @@ import {PhoneM2} from '../props/props';
   }
 
   return (
-        <>
+        <div className="detalle">
         <PhoneM2
          name={data.title}
          dato={data.dato}
@@ -29,7 +30,7 @@ import {PhoneM2} from '../props/props';
             ? <Link to='/cart'>Terminar Compra</Link>
             : <ItemCount initial={1} stock={10} onAdd={onAdd}/>
         }
-       </>
+       </div>
   )
 }
 

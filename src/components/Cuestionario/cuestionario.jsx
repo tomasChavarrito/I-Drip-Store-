@@ -3,6 +3,7 @@ import { useCartContext } from '../../Context/CartContext'
 import { useState } from 'react';
 import { addDoc, collection, serverTimestamp} from 'firebase/firestore';
 import { db } from '../../Firebase/config';
+import './cuestionario.css'
 
 export const Cuestionario = () => {
     const [cliente, setCliente] = useState({name:"", email:"", phone:"", adress:"", card:""})
@@ -34,7 +35,7 @@ export const Cuestionario = () => {
     
 
   return (
-    <>
+    <div className="cuestionario">
     {carga ? (
         <div className="orden">
           <h2>Gracias por su compra</h2>
@@ -66,10 +67,10 @@ export const Cuestionario = () => {
            <input onChange={(e) => setCliente({...cliente, card:e.target.value})} type="text" className="form-control" id="inputZip" />
     </div>
     
-         <button onClick={(e) => handleClick(e)}> Confirmar compra </button>
+         <button className="boton" onClick={(e) => handleClick(e)}> Confirmar compra </button>
     </form>
     </div>)}
-     </>
+     </div>
   )
 }
 export default Cuestionario;

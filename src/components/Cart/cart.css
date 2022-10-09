@@ -1,0 +1,19 @@
+
+
+.carrito a{
+    text-decoration: none;
+    color: rgb(235, 0, 0);
+}
+
+.tituloCart a{
+    text-decoration: none;
+    color:rgb(235, 0, 0)
+}
+
+.tituloCart{
+    color: white;
+}
+
+.carrito p{
+    color: white;
+}

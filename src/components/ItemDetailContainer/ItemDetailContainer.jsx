@@ -5,6 +5,7 @@ import React, {useState, useEffect} from 'react';
 import { useParams } from 'react-router-dom';
 import  ItemDetail  from '../ItemDetail/ItemDetail';
 import {getFirestore, doc, getDoc} from 'firebase/firestore'
+import './itemDetailC.css'
 
 
 
@@ -22,9 +23,9 @@ export const ItemDetailContainer = (texto) => {
         }, [detalleId])
   
     return (
-        <>
+        <div className="box">
         <ItemDetail  data={data}/>
-        </>
+        </div>
             
   )
 }

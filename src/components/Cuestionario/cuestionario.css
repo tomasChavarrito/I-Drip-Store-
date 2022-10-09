@@ -1,0 +1,22 @@
+.cuestionario{
+    width: 95%;
+    height: 370px;
+    margin: 30px auto;
+    background-color: rgb(68, 68, 68);
+    border-radius: 30px;
+    border-color: black;
+}
+
+.cuestionario p{
+    width: 200px;
+    height: 100px;
+    margin: 30px auto;
+    background-color: rgb(68, 68, 68);
+    border-radius: 30px;
+    border-color: black;
+}
+
+.boton{
+    width: 600px;
+    margin: 20px auto;
+}

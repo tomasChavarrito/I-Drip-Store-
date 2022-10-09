@@ -4,6 +4,7 @@ import React, {useState, useEffect} from 'react';
 // import ItemDetail from '../ItemDetail/ItemDetail';
 import { useParams } from 'react-router-dom';
 import {getFirestore, collection, getDocs, query, where} from 'firebase/firestore'
+import './itemListC.css'
 
 
 export const ItemListCointainer = (texto) => {
@@ -32,9 +33,9 @@ export const ItemListCointainer = (texto) => {
 
 
     return (
-        <>
+        <div className="imagenes">
             <ItemList  data={data}/>
-        </>
+        </div>
   )
 }
 

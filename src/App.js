@@ -25,7 +25,7 @@ const App = () => {
         <CartProvider value='IDS'>
 
         <Navbar/>
-           <h1> ~I Drip Store~</h1>
+           <h1 className="titulo"> ~I Drip Store~ </h1>
 
         <Routes>
           <Route path='/inicio' element={<ItemListCointainer />} />
